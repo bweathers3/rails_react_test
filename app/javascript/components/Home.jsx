@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { Button } from 'reactstrap';
 
 export default (props) => (
   <div className="vw-100 vh-25 primary-color d-flex align-items-center justify-content-center">
@@ -24,6 +24,7 @@ export default (props) => (
         </Link>
 
       </div>
+      <Button color="danger">Danger!</Button>
     </div>
   </div>
 );
