@@ -20,7 +20,7 @@ export default (props) => (
           className="btn btn-lg btn-dark"
           role="button"
         >
-          Church Home Page
+          <i class="fas fa-home"></i> Church Home Page
         </Link>
 
       </div>
