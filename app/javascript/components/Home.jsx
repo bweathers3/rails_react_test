@@ -5,7 +5,7 @@ import { Button } from 'reactstrap';
 export default (props) => (
   <div className="vw-100 vh-25 primary-color d-flex align-items-center justify-content-center">
     <div className="jumbotron jumbotron-fluid bg-transparent">
-      <div className="container secondary-color">
+      <div className="container bg-white">
         <h1 className="display-4">Welcome to the Church Bulletin App</h1>
         <p className="lead align-items-center">
           This app is designed to keep you up to date with events in your church.
